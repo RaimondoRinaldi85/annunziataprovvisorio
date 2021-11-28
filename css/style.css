@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 :root{
 --colore1: #1D71B8;
@@ -6,7 +6,7 @@
 }
 
 *{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     outline: none;
@@ -29,9 +29,8 @@ html{
 }
 
 hr{
-    /* background: linear-gradient(#8e499c 0%, #864aa0 53.72%, #604ca1 100%); */
     background: white;
-    height: 2px;
+    height: 1.5px;
     border: none;
     width: 50%;
 }
@@ -229,7 +228,7 @@ background-color: rgba(0, 0, 0, 0.075);
     color: white;
     width: 50%;
     letter-spacing: .2rem;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.582);
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.788);
     opacity: 0;
     animation: moveBanner 1s .5s forwards;
 } 
@@ -241,7 +240,7 @@ background-color: rgba(0, 0, 0, 0.075);
     width: 70%;
     letter-spacing: .1rem;
     margin-bottom: 3rem;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.705);
     opacity: 0;
     animation: moveBanner 1s .7s forwards;
 }
@@ -872,9 +871,9 @@ fieldset {
   
   @media (max-width: 500px) {
     html {
-      font-size: 45%;
+      font-size: 50%;
     }
-    
+
     .service {
       width: 30rem;
     }
