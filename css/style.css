@@ -47,13 +47,13 @@ hr{
   font-size: 5rem;
   font-weight: 300;
   margin: 2rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .section-heading-h2 {
   font-size: 2rem;
   font-weight: 300;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -302,7 +302,7 @@ background-color: rgba(0, 0, 0, 0.075);
 
 .description h2 {
   text-align: center;
- font-weight: 800;
+ font-weight: 700;
  font-size: 2.5rem;
  margin-bottom: 3rem;
 }
@@ -582,6 +582,10 @@ fieldset {
     padding: 1rem;
     color: black;
     line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  .antonio a img{
+    margin-bottom: 3rem;    
   }
   
   .copyright {
@@ -802,6 +806,10 @@ fieldset {
   }
   
   @media (max-width: 700px) {
+
+    .img-wrapper img{
+      filter: brightness(50%);
+  }
     
       .burger {
         display: block;
@@ -873,6 +881,10 @@ fieldset {
     html {
       font-size: 50%;
     }
+
+    .img-wrapper img{
+      filter: brightness(50%);
+  }
 
     .service {
       width: 30rem;
@@ -963,7 +975,7 @@ fieldset {
 
 .modal-header .title {
   font-size: 2.1rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .modal-header .close-button {
@@ -1037,7 +1049,7 @@ fieldset {
 
 .modal2-header .title {
   font-size: 2.1rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .modal2-header .close-button {
