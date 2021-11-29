@@ -88,7 +88,7 @@ nav p {
 }
 
 .burger {
-  background-color: var(--colore1);
+  background-color: rgba(255, 255, 255, 0);
 	border: 1px solid rgba(255, 255, 255, 0);
 	cursor: pointer;
 	display: none;
@@ -196,7 +196,6 @@ background-color: rgba(0, 0, 0, 0.075);
     width: 100%;
     height: 100%;
     overflow: hidden;
-    filter: opacity(100%);
 }
 
 .img-wrapper img{
@@ -450,7 +449,8 @@ background-color: rgba(0, 0, 0, 0.075);
   background: url(../img/bgmon.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: bottom;
+  background-position-y: center;
+  background-position-x: right;
   height: 100%;
   color: white;
 }
@@ -753,7 +753,6 @@ fieldset {
   
     .banner button {
       width: 18rem;
-      height: 4rem;
       font-size: 1.5rem;
     }
   
