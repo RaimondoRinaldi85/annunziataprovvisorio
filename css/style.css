@@ -612,12 +612,17 @@ fieldset {
   
   .social-list a {
     margin: 0 2rem;
+    font-size: 3rem;
   }
   
   .social-list i {
-    font-size: 2rem;
     color: black;
   }
+  
+  .social-list i:hover {
+    color: var(--colore1);
+  }
+
   /* end footer */
   .scroll-btn {
     position: fixed;
@@ -808,7 +813,15 @@ fieldset {
 
     .img-wrapper img{
       filter: brightness(50%);
-  }
+    }
+
+    .service-header{
+      text-align: center;
+    }
+
+    .section-heading{
+      text-align: center;
+    }
     
       .burger {
         display: block;
