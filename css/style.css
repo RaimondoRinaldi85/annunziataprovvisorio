@@ -2,7 +2,7 @@
 
 :root{
 --colore1: #1D71B8;
---coloregrad: url(../img/gradienteavvera.svg);
+--coloregrad: url(../img/gradiente.svg);
 }
 
 *{
@@ -235,7 +235,7 @@ background-color: rgba(0, 0, 0, 0.075);
 .banner p{
     font-size: 2rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     width: 70%;
     letter-spacing: .1rem;
     margin-bottom: 3rem;
@@ -245,7 +245,6 @@ background-color: rgba(0, 0, 0, 0.075);
 }
 
 .banner button {
-  cursor:pointer;
     border:none;
     background: var(--coloregrad);
     color:#FFF;
@@ -258,16 +257,14 @@ background-color: rgba(0, 0, 0, 0.075);
     text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
     cursor: pointer;
-    border-radius: .5rem;
+    border-radius: .3rem;
     opacity: 0;
     animation: moveBanner 1s 1s forwards;
+    transition: ease-in .3s;
 }
 .banner button:hover {
     background:rgb(255, 255, 255);
     color: var(--colore1);
-	  -webkit-transition:background 0.2s ease-in;
-	  -moz-transition:background 0.1s ease-in;
-	  transition:background-color 0.1s ease-in;
 }
 
 
@@ -441,9 +438,33 @@ background-color: rgba(0, 0, 0, 0.075);
     background-image: url(../img/firma.png);
     background-size: cover;
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: bottom;
+    border-top: 5px white solid;
+    border-bottom: 5px white solid;
 }
   /*end firma*/
+  /*trasparenza*/
+.trasparenza{
+    padding: 2rem 5rem 7rem 5rem;
+    color: var(--colore1);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.buttonTR{
+  padding: 1rem 2.3rem;
+  margin-top: 5rem;
+  font-size: 1.9rem;
+  background-color: var(--colore1);
+  color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+  transition: ease-in .3s;
+}
+.buttonTR:hover{
+  box-shadow: 0px 0px 0px 0px #00000000;
+}
+  /*end trasparenza*/
   /* contatti */ 
 .contact {
   background: url(../img/bgmon.jpg);
@@ -617,6 +638,7 @@ fieldset {
   
   .social-list i {
     color: black;
+    transition: ease-in .1s;
   }
   
   .social-list i:hover {
@@ -637,7 +659,8 @@ fieldset {
     font-size: 2rem;
     color: #fff;
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
+    border-radius: 50%;
+    transition: ease-in .3s;
     
   }
   .scroll-btn:hover{
@@ -657,7 +680,8 @@ fieldset {
     font-size: 2rem;
     color: #fff;
     box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
+    border-radius: 50%;
+    transition: ease-in .3s;
     
   }
 
@@ -964,8 +988,8 @@ fieldset {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
   z-index: 10;
   background: var(--coloregrad) no-repeat;
   color: white;
@@ -982,7 +1006,7 @@ fieldset {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .modal-header .title {
@@ -997,6 +1021,7 @@ fieldset {
   background: none;
   font-size: 2.1rem;
   font-weight: bold;
+  color: white;
 }
 
 .modal-body {
@@ -1038,13 +1063,13 @@ fieldset {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
   z-index: 10;
-  background: url(../img/gradienteavvera.svg) no-repeat;
+  background: url(../img/gradiente.svg) no-repeat;
   color: white;
   width: 500px;
   max-width: 80%;
+  border: 1px solid white;
 }
 
 .modal2.active {
@@ -1056,7 +1081,7 @@ fieldset {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .modal2-header .title {
@@ -1071,6 +1096,7 @@ fieldset {
   background: none;
   font-size: 2.1rem;
   font-weight: bold;
+  color: white;
 }
 
 .modal2-body {
