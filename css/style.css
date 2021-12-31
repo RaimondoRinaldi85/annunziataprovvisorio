@@ -605,7 +605,11 @@ fieldset {
     margin-bottom: 2rem;
   }
   .antonio a img{
-    margin-bottom: 3rem;    
+    margin-bottom: 3rem;
+  }
+
+  .antonio img{
+    width: 200px;
   }
   
   .copyright {
