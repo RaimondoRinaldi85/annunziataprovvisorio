@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: url(../img/gradiente.svg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.polcookie{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.polcookie h2{
+    color: rgb(0, 0, 0);
+    margin: 1rem auto;
+    line-height: 2rem;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: .3rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.383);
+}
+
+.polcookie h1{
+    color: rgb(0, 0, 0);
+    margin: auto auto 1rem auto;
+    line-height: 3rem;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: .3rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.383);
+}
+
+.polcookie a{
+    
+    text-align: center;
+    margin: 3rem auto 3rem auto;
+    text-decoration: none;
+    background-color: #1D71B8;
+    color: white;   
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.383);
+    transition: ease-in .3s;
+}
+
+.polcookie a:hover{
+    background-color: white;
+    color: #1D71B8;
+}
+
+@media (max-width: 1000px) {
+    .polcookie{
+        width: 80%;
+        margin: auto;
+    }
+
+    .polcookie h2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

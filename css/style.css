@@ -1116,3 +1116,83 @@ fieldset {
   font-size: 4rem;
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* COOKIE CHOICE*/
+
+ #cookieChoiceInfo{
+  /* STANDARD STYLE JS */
+  position:fixed;
+  width:100%;
+  background-color:#eee;
+  margin:0; 
+  left:0; 
+  bottom:0;
+  padding:1rem;
+  z-index:1000000;
+  text-align:center;
+  /* STANDARD STYLE JS END */
+  
+  background-color:var(--colore1);
+  color:#fafafa; 
+  font-size: 14px;
+  padding:8px;
+  box-sizing:border-box;
+}
+
+@media (max-width: 850px){
+  #cookieChoiceInfo span{
+    display: block;
+    margin-bottom:1.5rem;
+  }
+}
+
+#cookieChoiceInfo a{
+  display:inline-block;
+  background-color:white;
+  padding:.7rem 2rem;
+  color:black;
+  text-decoration:none;
+  border-radius: 3px;
+  font-size:14px;
+  margin-left:1rem;
+  border: white solid 1px;
+}
+
+#cookieChoiceInfo a:hover{
+  background-color:var(--colore1);
+  border: white solid 1px;
+  text-decoration:none;
+  color: white;
+}
+
+#cookieChoiceInfo a#cookieChoiceDismiss{
+  margin-left:24px;
+}
